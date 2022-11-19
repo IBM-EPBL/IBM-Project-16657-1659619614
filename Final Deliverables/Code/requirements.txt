@@ -1,0 +1,5 @@
+Flask
+requests
+sendgrid
+clarifai_grpc
+ibm_db
