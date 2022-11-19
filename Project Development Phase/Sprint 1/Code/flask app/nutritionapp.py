@@ -26,7 +26,7 @@ def register():
         email = request.form['email']
         phoneNumber = request.form['phoneNumber']
         password = request.form['password']
-        message = Mail(from_email='nutriaux04@gmail.com',to_emails=email,subject="NutriAux - Registration",html_content='<b>NutriAux welocmes you</b><br/><p>Your account has been registered successfully</p>')
+        message = Mail(from_email='lolipopinfotechofficial@gmail.com',to_emails=email,subject="Nutrition Assistant Application - Registration",html_content='<b>Nutrition Assistant App welocmes you</b><br/><p>Your account has been registered successfully</p>')
         try:
             sg=SendGridAPIClient('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')
             response=sg.send(message)
@@ -100,4 +100,4 @@ def verify():
 
 if __name__ == '__main__':
     app.run(debug=True)
-Footer
+Fo
