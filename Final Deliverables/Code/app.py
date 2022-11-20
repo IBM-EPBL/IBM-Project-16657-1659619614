@@ -280,6 +280,3 @@ def support():
 
 if __name__ == '__main__':
     app.run(debug=True)
-Footer
-© 2022 GitHub, Inc.
-Footer
